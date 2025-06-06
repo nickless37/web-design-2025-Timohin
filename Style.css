@@ -1,10 +1,10 @@
 
 body {
-    margin: 0;        /*  margin- відступ. 1 значення- відсуп рівний для всіх сторін; 4 значення- відступ різний. шаблон: margin: top right bottom left;*/
-    padding: 0;       /*  padding- внутрішній відступ. шаблон як у margin  */
+    margin: 0;
+    padding: 0;
     background-color: #f2f1ef  ;
   }
-
+                                                            /* block1 start */
 .logo-and-name{
     display: flex;
     flex-direction: row; 
@@ -34,7 +34,8 @@ body {
     font-size: 36px;
     color: #313131;
 }
-
+                                                        /* block1 end */
+                                                        /* block2 start */
 .Block_2_customer_choise p{
     color: #313131;
     font-size: 36px;
@@ -47,9 +48,7 @@ body {
 
 .Block_2_customer_choise{
     height: 715px;
-    /* max-width: 1440px;
-    justify-self: center;
-    я планував підігнати проект під розміри поля у Figma, що були використані як стандартний Desktop, але це не вирішує проблемне відображення при більших розмірах вікна, тому вирішив залишити так за нестачею досвіду */
+    /* max-width: 1440px;*/
     object-fit: cover;
     color: #313131;
     display: flex;
@@ -64,7 +63,8 @@ body {
     
     justify-content:center
 }
-
+                                                        /* block2 end */
+                                                        /* block3 start */
 .Block_3_section_choice{
     display: flex;
     flex-direction: row; 
@@ -91,7 +91,8 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+                                                        /* block3 end */
+                                                        /* block4 start */
 .Block_4_about_us h1{
     font-size: 64px;
 }
@@ -106,6 +107,8 @@ body {
     display: flex;
     flex-direction: row;
 }
+                                                        /* block4 end */
+                                                        /* block5 start */
 
 .Block_5_work_for_you{
     background-color: #F0D9CE ;  
@@ -139,6 +142,8 @@ body {
     margin:  35px 0 15px 10%;
 }
 
+                                                        /* block5 end */
+                                                        /* block6 start */
 .Block_6_catalog{
     background-color: #f2f1ef ;
     width: 100%;
@@ -180,7 +185,8 @@ body {
     justify-self: end;
     color: #313131;
 }
-
+                                                                /* block6 end */
+                                                                /* block7 start */
 .Block_7_comments{
     margin-top: 150px;
     background-color: #f1e4dd;
@@ -255,7 +261,8 @@ body {
     justify-content: center;
     margin-bottom: 73px;
 }
-
+                                                                        /* block7 end */
+                                                                        /* block8 start */
 .page_end{
     background-color: #eed7cc;
     display: flex;
@@ -339,7 +346,7 @@ body {
     left: 15%;    
     width: 547px;    
     height: 677px;
-    z-index: 10;     /* Щоб перекривало інші елементи */
+    z-index: 10;     /* позиція над елементами */
 }
 
 .colors_and_fonts h1{
@@ -364,3 +371,4 @@ body {
     align-items: center;
     justify-content: center;
 }
+                                                                                /* block8 end */
