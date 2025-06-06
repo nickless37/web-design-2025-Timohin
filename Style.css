@@ -1,0 +1,366 @@
+
+body {
+    margin: 0;        /*  margin- відступ. 1 значення- відсуп рівний для всіх сторін; 4 значення- відступ різний. шаблон: margin: top right bottom left;*/
+    padding: 0;       /*  padding- внутрішній відступ. шаблон як у margin  */
+    background-color: #f2f1ef  ;
+  }
+
+.logo-and-name{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    font-family: 'Jim Nightshade', cursive;
+}
+.name{
+    font-size: 64px;
+    display: flex;
+    align-items: center;
+  }
+
+.header{
+    min-width: 1000px;
+    height: 145px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    padding: 0 6%;
+    /* margin: 0 30px; */
+    background-color: #F0D9CE ;
+    align-items: center;
+}
+
+.header-button{
+    font-size: 36px;
+    color: #313131;
+}
+
+.Block_2_customer_choise p{
+    color: #313131;
+    font-size: 36px;
+}
+
+.Block_2_customer_choise h1{
+    color: #313131;
+    font-size: 48px;
+}
+
+.Block_2_customer_choise{
+    height: 715px;
+    /* max-width: 1440px;
+    justify-self: center;
+    я планував підігнати проект під розміри поля у Figma, що були використані як стандартний Desktop, але це не вирішує проблемне відображення при більших розмірах вікна, тому вирішив залишити так за нестачею досвіду */
+    object-fit: cover;
+    color: #313131;
+    display: flex;
+    flex-direction: row; 
+    padding: 0 0 0 60px;
+    overflow: hidden
+}
+.Block_2_customer_choise_sub{
+    padding: 0 0 10% 0;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content:center
+}
+
+.Block_3_section_choice{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    overflow: hidden
+}
+.IMG_button{
+    position: relative;
+    display: inline-block;
+}
+
+.button_text{
+    background-color: #F0D9CEE6 ;
+    height: 78px;
+    width: 245px;
+    font-size:36px ;
+    border-radius: 25px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Block_4_about_us h1{
+    font-size: 64px;
+}
+
+.Block_4_about_us div p{
+    font-size: 32px;
+    color: #313131;
+}
+
+.Block_4_about_us{
+    margin:  70px 0 0 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Block_5_work_for_you{
+    background-color: #F0D9CE ;  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.Block_5_work_for_you_Grid{
+    
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    display: grid;
+    font-size: 24px;
+    grid-template-columns: 25% 25% 25% 25%; 
+    gap: 10px; 
+}
+
+.Block_5_work_for_you_Grid div{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.Block_5_work_for_you_H1{
+    width: 100%;
+    font-size: 32px;
+    margin:  35px 0 15px 10%;
+}
+
+.Block_6_catalog{
+    background-color: #f2f1ef ;
+    width: 100%;
+    height: 100%;
+}
+
+.Block_6_catalog h1{
+    margin:  35px 0 30px 12%;
+    font-size: 64px;
+}
+
+.Block_6_catalog_Grid_El{
+    font-size: 36px;
+    text-align: center;
+    width: 364px;
+    background-color: #F0D9CE ; 
+    box-shadow: 0px 0px 25px #FB9696cc; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Block_6_catalog_Grid{
+    margin:  35px 0 30px 10%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%; 
+    gap: 5%; 
+    
+}
+
+.desription{
+    height: 100px;
+    align-content: center;
+    color: #313131;
+}
+
+.price{
+    justify-self: end;
+    color: #313131;
+}
+
+.Block_7_comments{
+    margin-top: 150px;
+    background-color: #f1e4dd;
+}
+
+.Block_7_comments h1{
+    margin:  35px 0 15px 10%;
+    font-size: 64px;
+}
+
+.Block_7_comments_element{
+    box-shadow: 0px 0px 25px #000000 ; 
+    width: 70%;
+    margin-left: 10%;
+    background-color: #f2f1ef;
+    display: flex;
+    flex-direction: row;
+    gap: 5%; 
+    padding: 30px 0 0 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name2{
+    font-size: 64px ;
+    color: #AD8D7D;
+    margin-top: 0px;
+    width: 80%;
+}
+
+.coment{
+    margin-top: 0px;
+    font-size: 32px;
+    width: 100%;
+}
+
+.Block_7_comments h2{
+    margin:  200px 0 15px 10%;
+    font-size: 64px;
+}
+
+.texbox1{
+    color: #9f9e9d;
+    background-color: #f2f1ef;
+    font-size: 36px;
+    height: 115px;
+    width: 70%;
+    margin:  20px 0 45px 10%;
+    padding: 30px; 
+}
+
+.texbox2{
+    color: #9f9e9d;
+    background-color: #f2f1ef;
+    font-size: 36px;
+    height: 341px;
+    width: 70%;
+    margin:  10px 0 0 10%;
+    padding: 30px; 
+}
+
+.sent_button{
+    margin:  65px 0 0 10%;
+    background-color: #d2e0f6;
+    box-shadow: -5px 5px 25px #000000;
+    font-size: 36px;
+    color: #313131;
+    width: 245px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 73px;
+}
+
+.page_end{
+    background-color: #eed7cc;
+    display: flex;
+    flex-direction: row;
+}
+
+.page_end_first_half{
+    width: 33%;
+    margin: 37px 91px 43px 98px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page_end_Grid{
+    margin-right: 5%;
+    display: grid;
+    width: 65%;
+    grid-template-columns: 30% 30% 30%; 
+    gap: 5%; 
+    color: #31313199;
+    font-size: 24px;
+}
+
+.contacts_info_catalog{
+    color: #000000;
+    font-size: 36px;
+}
+
+.copiright{
+    font-size: 24px;
+}
+
+.name3{
+    margin-left: 10px ;
+    width: 50%;
+    font-size: 70px;
+    font-family: 'Jim Nightshade', cursive;
+}
+
+.page_end_Grid_element{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-self: center;
+    text-align: center;
+}
+
+.page_end_Grid_element p{
+    padding: 0%;
+    margin: 0%;
+    border: #000000;
+}
+
+.colors_and_fonts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.fonts{
+    background-color: #eed7cc;
+    width: 40%;
+    height: 451px;
+    font-size: 96px;
+    padding: 20px 0 10px 46px;
+}
+
+.fonts p{
+    padding: 0%;
+    margin: 0 0 30px 0;
+}
+
+.Jim_Nightshade{
+    font-family: 'Jim Nightshade', cursive;
+}
+
+.colors_and_fonts img{
+    position: relative;
+    right: 3px;   
+    left: 15%;    
+    width: 547px;    
+    height: 677px;
+    z-index: 10;     /* Щоб перекривало інші елементи */
+}
+
+.colors_and_fonts h1{
+    margin: 83px 0 62px 96px;
+    font-size: 64px;
+    width: 100%;
+}
+
+.sent_button2{
+    position: relative;
+    top: -150px;
+    left: 900px;
+    z-index: 10; 
+
+    background-color: #f0d9ce;
+    box-shadow: -5px 5px 25px #000000;
+    font-size: 36px;
+    color: #313131;
+    width: 245px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
