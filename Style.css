@@ -1,8 +1,8 @@
-
 body {
     margin: 0;
     padding: 0;
     background-color: #f2f1ef  ;
+    font-family: 'Jomolhari', serif;
   }
                                                             /* block1 start */
 .logo-and-name{
@@ -12,11 +12,12 @@ body {
     align-items: center;
     font-family: 'Jim Nightshade', cursive;
 }
+
 .name{
     font-size: 64px;
     display: flex;
     align-items: center;
-  }
+}
 
 .header{
     min-width: 1000px;
@@ -36,6 +37,10 @@ body {
 }
                                                         /* block1 end */
                                                         /* block2 start */
+.phone_size_1{
+    display: none;
+}
+
 .Block_2_customer_choise p{
     color: #313131;
     font-size: 36px;
@@ -93,6 +98,10 @@ body {
 }
                                                         /* block3 end */
                                                         /* block4 start */
+.phone_size_2{
+    display: none;
+}
+
 .Block_4_about_us h1{
     font-size: 64px;
 }
@@ -316,6 +325,11 @@ body {
     margin: 0%;
     border: #000000;
 }
+                                                                                        /* colors and fonts */
+
+.phone_size_3{
+    display: none;
+}
 
 .colors_and_fonts{
     display: flex;
@@ -372,3 +386,306 @@ body {
     justify-content: center;
 }
                                                                                 /* block8 end */
+                                                                                /* налаштування для екрану мобільного за макетом figma: */
+
+@media (max-width:320px){
+    /* body {
+        margin: 0;
+        padding: 0;
+        background-color: #f2f1ef  ;
+        background-color: yellowgreen;
+    } */
+                                                                                /* b1 strart */
+    .name{
+        font-size: 20px;
+    }
+    
+    .header{
+        min-width: 100px;
+        height: 54px;
+    }
+
+    .header img{
+        width: 33px;
+        height: 33px;
+    }
+
+    .header-button{
+        font-size: 11px;
+    }
+                                                                            /* b1 end */
+                                                                            /* b2 strart */
+    .original_size_1{
+        display: none;
+    }
+
+    .phone_size_1{
+        display: block;
+    }
+
+    .Block_2_customer_choise p{
+        font-size: 15px;
+    }
+    
+    .Block_2_customer_choise h1{
+        font-size: 24px;
+    }
+    
+    .Block_2_customer_choise{
+        height: 293px;
+        padding: 0 0 0 5%;
+        overflow: hidden
+    }
+    .Block_2_customer_choise_sub{
+        padding: 0 0 10% 0;
+    }
+                                                                            /* b2 end */
+                                                                            /* b3 strart */
+    .button_text{
+        height: 17px;
+        width: 61px;
+        font-size:13px ;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        }
+
+    .IMG_button img{
+        width: 105px;
+        height: 74px;
+    }
+                                                                            /* b3 end */
+                                                                            /* b4 strart */
+    .Block_4_about_us h1{
+    font-size: 20px;
+    }
+
+    .Block_4_about_us div p{
+    font-size: 11px;
+    }
+
+    .Block_4_about_us{
+    margin:  5% 0 0 8%;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    .Block_4_about_us img{
+        margin-left: 8%;
+        width: 181px;
+        height: 121px ;
+    }
+
+    .Block_4_about_us div{
+        width: 30%;
+    }
+
+    .phone_size_2{
+        display:block;
+        font-size: 11px;
+        width: 100%;
+        color: #313131;
+    }
+
+    .original_size_2{
+        display: none;
+    }
+                                                                            /* b4 end */
+                                                                            /* b5 strart */
+    .Block_5_work_for_you{
+        gap: 3px;
+    }
+    
+    .Block_5_work_for_you_Grid{
+        width: 100%;
+        display: flex;
+        justify-items: center;
+        display: grid;
+        font-size: 8px;
+        grid-template-columns: 25% 25% 25% 25%; 
+        gap: 3px; 
+    }
+    
+    .Block_5_work_for_you_H1{
+        width: 100%;
+        font-size: 14px;
+        margin:  3% 0 5% 10%;
+    }     
+    
+    .Block_5_work_for_you img{
+        width: 28px;
+        height: 28px;
+    }
+
+    .Block_5_work_for_you p{
+        width: 50px;
+        text-align: center;
+    }
+                                                                            /* b5 end */
+                                                                            /* b6 strart */
+    .Block_6_catalog h1{
+        margin:  3% 0 5% 10%;
+        font-size: 16px;
+    }
+
+    .Block_6_catalog_Grid_El{
+        font-size: 7px;
+        width: 76px;
+    }
+
+    .Block_6_catalog_Grid{
+        margin:  5% 0 5% 20%;
+        height: 100%;   
+        grid-template-columns: 40% 40%; 
+        gap: 10%;
+    }
+
+    .desription{
+        height: 33px;
+    }
+
+    .Block_6_catalog_Grid img{
+        width: 76px; ;
+        height: 99px;
+    }
+                                                                            /* b6 end */
+                                                                            /* b7 strart */
+    .Block_7_comments img{
+        width: 24px;
+        height: 24px;
+    }   
+
+    .Block_7_comments{
+        margin-top: 150px;
+    }
+    
+    .Block_7_comments h1{
+        margin:  3% 0 5% 10%;
+        font-size: 16px;
+    }
+    
+    .Block_7_comments_element{
+        padding: 5% 0 0 3%;
+        box-shadow: 0px 0px 25px #00000099 ; 
+    }
+    
+    .name2{
+        font-size: 16px ;
+    }
+    
+    .coment{
+        font-size: 10px;
+    }
+    
+    .Block_7_comments h2{
+        margin:  15% 0 0% 10%;
+        font-size: 16px;
+    }
+    
+    .texbox1{
+        font-size: 16px;
+        height: 42px;
+        width: 70%;
+        margin:  5% 0 5% 10%;
+        padding: 3%; 
+    }
+    
+    .texbox2{
+        font-size: 16px;
+        height: 129px;
+        width: 70%;
+        margin:  10px 0 0 10%;
+        padding: 3%; 
+    }
+    
+    .sent_button{
+        margin:  10% 0 0 10%;
+        font-size: 7px;
+        width: 54px;
+        height: 21px;
+        margin-bottom: 35px;
+        box-shadow: -5px 5px 15px #00000099;
+    }         
+                                                                            /* b7 end */
+                                                                            /* b8 strart */
+    .end_logo{
+        width: 19px;
+        height: 19px ;
+    }
+
+    .page_end_first_half{
+        width: 20%;
+        margin: 3% 3% 3% 5%;
+    }
+    
+    .page_end_Grid{
+        font-size: 10px;
+        display: flex;
+        align-items: flex-start;
+        margin: 5px 0 5px 0;
+    }
+
+    .contacts_info_catalog{
+        font-size: 12px;
+    }
+    
+    .copiright{
+        font-size: 5px;
+    }
+    
+    .name3{
+        margin-left: 5px ;
+        width: 50%;
+        font-size: 12px;
+        font-family: 'Jim Nightshade', cursive;
+    }
+    
+    .page_end_Grid_element{
+        gap: 4px;
+    }
+    
+    .fonts{
+        width: 40%;
+        height: 88px;
+        font-size: 20px;
+        padding: 5px 0 2px 10%;
+    }
+    
+    /* .fonts p{
+        padding: 0%;
+        margin: 0 0 30px 0;
+    } */
+    
+    .original_size_3{
+        display: none;
+    }
+
+    .phone_size_3{
+        display: block;
+    }
+
+    .colors_and_fonts img{
+        position: relative;
+        right: 3px;   
+        left: 5%;    
+        width: 140px;    
+        height: 132px;
+        z-index: 10;   
+    }
+    
+    .colors_and_fonts h1{
+        margin: 5% 0 3% 10%;
+        font-size: 14px;
+        width: 100%;
+    }
+    
+    .sent_button2{
+        position: relative;
+        top: -15px;
+        left: 90px;
+        box-shadow: -5px 5px 10px #00000099;
+        font-size: 8px;
+        width: 54px;
+        height: 17px;
+    }
+}
